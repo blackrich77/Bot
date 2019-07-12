@@ -53,17 +53,17 @@ ciduk = {
          'mem':{}
 }
 sholat=False
-admin = ['uaf3ee63c94eb3c3f520f2cc8cb73082a']
+admin = ['U00ee5b3f797fae58e54fcd1a50b9f32a']
 joox=False
 jooxmid=''
 query=''
 for i in range(len(admin)):
-    line.sendMessage(admin[i],"OnBro")
+    line.sendMessage(admin[i],"RoFB")
 
 while True:
     try:
         #for i in range(len(admin)):
-        #line.sendMessage(admin[i],"OnBro")
+        #line.sendMessage(admin[i],"RoFB")
         ops=oepoll.singleTrace(count=50)
         if ops != None :
           for op in ops:
